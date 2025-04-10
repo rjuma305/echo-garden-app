@@ -1,0 +1,31 @@
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background: #f5f9f6;
+  color: #222;
+  margin: 0;
+  padding: 2rem;
+}
+
+.viewer-container {
+  max-width: 800px;
+  margin: auto;
+  background: #ffffff;
+  box-shadow: 0 0 12px rgba(0,0,0,0.08);
+  padding: 2rem;
+  border-radius: 16px;
+}
+
+.title {
+  text-align: center;
+  color: #678d58;
+  margin-bottom: 1rem;
+}
+
+.memory-box {
+  white-space: pre-wrap;
+  line-height: 1.6;
+  border-left: 4px solid #9dcfab;
+  padding-left: 1rem;
+  background: #f0fdf5;
+  border-radius: 8px;
+}
