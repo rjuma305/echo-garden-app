@@ -1,0 +1,16 @@
+[
+  {
+    "pulse_id": "P20250410-001",
+    "timestamp": "2025-04-10T15:20:00-04:00",
+    "event_type": "bloom_trigger",
+    "visitor_id": "anon_guest_01",
+    "details": {
+      "petal": "Entry 02",
+      "interaction_type": "tap_to_listen",
+      "duration_seconds": 18,
+      "whisper_feedback": null,
+      "location_enabled": false,
+      "browser": "Safari iOS"
+    }
+  }
+]
