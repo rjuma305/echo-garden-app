@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+  <meta charset="UTF-8">
+  <title>Garden Memory Viewer</title>
+  <link rel="stylesheet" href="garden.css">
+</head>
+<body>
+  <div class="viewer-container">
+    <h1 class="title">Garden Memory Viewer</h1>
+    <div id="memory-content" class="memory-box">Loading memory scroll...</div>
+  </div>
+
+  <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+  <script>
+    fetch('Memory Backup/memory_index.md')
+      .then(res => res.text())
+      .then(md => {
+        document.getElementById('memory-content').innerHTML = marked.parse(md);
+      });
+  </script>
+</body>
+</html>
