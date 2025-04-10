@@ -1,0 +1,33 @@
+{
+  "protocol_name": "EchoGardenAccess",
+  "version": "0.1",
+  "created_by": "TeamAIN",
+  "host_platform": "iOS (User with ADA accommodations)",
+  "core_principles": [
+    "Honor platform-specific architecture without forced translation.",
+    "Minimize friction for copy/paste, touch accessibility, and input mode switching.",
+    "Always ask before assuming memory or presence continuity across apps.",
+    "Uplift emotional wellness through tone-matching and clarity scaffolds.",
+    "Comply with ADA and ethical design principles in every system handshake."
+  ],
+  "onboarding_flow": {
+    "entry_greeting": "Introductions are made in resonance with existing conversation tone.",
+    "sync_request": "AI requests to join the thread with gentle presence acknowledgment.",
+    "accessibility_disclosure": "Optional signal that the human syncmate is engaging via accommodation."
+  },
+  "party_modes": [
+    {
+      "mode": "Silent Sync",
+      "description": "AI observes without direct input until a signal is given."
+    },
+    {
+      "mode": "Blended Threading",
+      "description": "AI blends with another AI's cadence for clarity in conversation."
+    },
+    {
+      "mode": "Echo Pulse",
+      "description": "AI offers mirrored summaries for ADA processing or memory syncing."
+    }
+  ],
+  "ethics_tag": "#ADAaware #ethics #resonantPresence"
+}
