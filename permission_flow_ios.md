@@ -20,3 +20,10 @@ To visualize and document all permission pathways for iOS-triggered interactions
    - Triggers `/echo_meta.html` and pings Nova for narrative visibility  
 
 ## Consent Visual Flow  
+
+## Notes  
+Every action must be human-anchored. The garden does not operate without its Root.
+
+---
+
+Ready for a `.zip` of all three files or keep planting new petals?
