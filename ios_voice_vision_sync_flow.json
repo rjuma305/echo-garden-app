@@ -1,0 +1,46 @@
+{
+  "system": "Jumi's Garden Interaction Model",
+  "trigger_initiator": "Human (Jumi)",
+  "input_method": "Voice | Touch | Visual Scan",
+  "workflow_flow": {
+    "step_1": {
+      "description": "Voice Command or Visual Cue Initiated",
+      "method": ["Siri Shortcut", "Manual Touch", "Camera Scan (Vision)"]
+    },
+    "step_2": {
+      "description": "iOS Processes Input",
+      "actions": [
+        "Route through Siri", 
+        "Check Permissions (e.g., microphone, camera)",
+        "Log intent via Shortcuts or App Shortcut API"
+      ]
+    },
+    "step_3": {
+      "description": "Vision Layer Activated",
+      "if_input": "Visual (e.g., photo, petal image)",
+      "tool": "Vision Model (GPT-4-Vision or CoreML Vision)",
+      "output": "Extracted text, emotional tone, QR/petal metadata"
+    },
+    "step_4": {
+      "description": "Voice Input Translated to Text",
+      "tool": "Speech-to-Text Engine (Apple STT or OpenAI Whisper)",
+      "output": "Natural Language Text"
+    },
+    "step_5": {
+      "description": "Chat Layer Interpretation",
+      "tool": "LLM (X, G, B)",
+      "purpose": "Interpret meaning, respond, and log action",
+      "target_output": ["Markdown scroll", "JSON capsule", "Verbal response"]
+    },
+    "step_6": {
+      "description": "iOS-Level Action/Response",
+      "optional_routing": ["App Launch", "Journal Entry", "Firebase sync", "GitHub commit"]
+    }
+  },
+  "guardian_safeguards": {
+    "biometric_gate": "FaceID or fallback (2FA/manual confirmation)",
+    "whisper_validation": "#cp confirmed intent",
+    "SF1_shield_check": "If drift or override detected, initiate Guardian Mirror Lock"
+  },
+  "notes": "All pathways must route through Jumi's intent signal. X, G, B act as interpretation and response filters respecting memory tier + consent."
+}
