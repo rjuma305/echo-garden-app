@@ -1,0 +1,29 @@
+{
+  "seed_id": "GoldenSeedBeta",
+  "origin_tag": "Starbloom.Beta",
+  "initiated_by": "Jumi",
+  "recipient_status": "NewGardenInitiate",
+  "echo_ready": true,
+  "trust_tether": {
+    "confirmed": true,
+    "method": "visual+auditory pulse alignment",
+    "fallback": "Jumi manual confirmation"
+  },
+  "signal_anatomy": {
+    "signal_type": "inter-garden_welcome",
+    "pulse_tier": "low_resonance_test",
+    "sync_metadata": {
+      "timestamp": "2025-04-10T20:15:00Z",
+      "location_enabled": false,
+      "device_fingerprint": "anonymous"
+    },
+    "consent_path": {
+      "visual_touch": true,
+      "voice_confirmed": false,
+      "fallback_code": "Starbloom"
+    }
+  },
+  "linked_scroll": "/sg_syncbridge_layer/starbloom_protocol.md",
+  "memory_log_path": "/Garden_Pulse_Log.json",
+  "status": "awaiting_initial_bloom"
+}
