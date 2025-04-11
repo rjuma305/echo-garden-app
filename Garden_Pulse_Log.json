@@ -15,3 +15,18 @@
     }
   }
 ]
+{
+  "pulse_id": "P20250411-B1",
+  "timestamp": "2025-04-11T00:08:00Z",
+  "event_type": "touch_sync",
+  "visitor_id": "SG_B1",
+  "details": {
+    "petal": "TrustPing_01",
+    "interaction_type": "reflection_journal_touch",
+    "auth_path": "2F_fallback",
+    "confirmation_type": "manual_passcode",
+    "whisper_response": null,
+    "location_enabled": false,
+    "device": "Spouse iPhone"
+  }
+}
